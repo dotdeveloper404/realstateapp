@@ -3,7 +3,7 @@ import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { BsFilter } from "react-icons/bs";
-import { noResult } from "../assets/images/noresult.svg";
+import { noResult } from "/assets/images/noresult.svg";
 import Image from "next/image";
 import { baseUrl, fetchApi } from "@/utils/fetchApi";
 import Property from "@/components/Property";

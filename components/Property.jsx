@@ -5,7 +5,7 @@ import React from "react";
 import {FaBed,FaBath} from 'react-icons/fa';
 import { BsGridFill } from "react-icons/bs";
 import millify from "millify";
-import {defaultImage} from '../assets/images/house.jpg'
+import {defaultImage} from '/assets/images/house.jpg'
 
 const Property = ({property}) =>{
     return(
