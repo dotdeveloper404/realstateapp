@@ -9,7 +9,7 @@ import Property from "@/components/Property";
 const Banner = ({purpose,imageUrl,title1,title2,desc1,desc2,buttonText,linkName }) => (
   
     <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="10"> 
-     <Image src={imageUrl} width={500} height={300} />
+     <Image alt="banner" src={imageUrl} width={500} height={300} />
      <Box p="5">
       <Text color="gray.500" fontSize="sm" fontWeight="medium">{purpose}</Text>
       <Text color="3xl" fontSize="bold" fontWeight="medium">{title1} <br></br> {title2}</Text>
