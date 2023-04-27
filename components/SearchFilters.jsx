@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 const SearchFilters = () => {
     const router = useRouter();
-    
+
   const [filters, setFilters] = useState(filterData); //filterData is for filters paramters query
   const searchProperties = (filterValues) => {
     const path = router.pathname;
@@ -30,7 +30,7 @@ const SearchFilters = () => {
               }
             >
               {filter?.items?.map((item) => (
-                <option value={item.value}>{item.name}</option>
+                <option key={item.value} value={item.value}>{item.name}</option>
               ))}
             </Select>
           </Box>
